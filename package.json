@@ -1,0 +1,28 @@
+{
+  "name": "taktuk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "image-size": "^2.0.2",
+    "phaser": "^3.90.0",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "tiktok-live-connector": "^2.1.1-beta1"
+  }
+}
